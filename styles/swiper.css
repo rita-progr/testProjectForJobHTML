@@ -1,0 +1,112 @@
+.mySwiper{
+    max-width: 1000px;
+    width: 100%;
+}
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide_container{
+    max-width: 160px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1.2rem 0 0 0;
+
+}
+.swiper_button{
+    align-items: center;
+    justify-content: center;
+    background : #FFFFFF;
+    border-radius: 5px;
+    padding:1rem;
+    font-size:16px;
+    font-weight:500;
+    color: rgba(0, 0, 0, 0.2)
+}
+.swiper-slide_content{
+    display: flex;
+    max-width: 150px;
+    width: 100%;
+    flex-direction: column;
+    gap:1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #9564AA;
+    border-radius: 10px;
+    padding:0.7rem;
+    background: rgba(149, 100, 170, 0.1);
+}
+.swiper-slide_content-item{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.swiper-slide_content:hover{
+    background: #9564AA;
+    color: #fff;
+}
+.app__content-main_second-banner-button:hover{
+    background: #FFCF2D;
+    color:#000000;
+}
+
+.swiper-slide_content:hover>button{
+    background: #FFCF2D;
+    color:#000000;
+}
+.swiper-slide_content-additional{
+    display: none;
+    position: absolute;
+    top:0;
+    left:1rem;
+    z-index: 100;
+    border-radius:5px;
+    background: #FFCF2D;
+    padding:0.3rem;
+}
+.swiper-slide_container:hover .swiper-slide_content-additional{
+     display:block;
+ }
+input[type = "checkbox"] {
+    accent-color: #9564AA;
+    width: 20px;
+    height: 20px;
+    border-radius: 1rem;
+
+}
+.swiper-pagination-bullet{
+    background: #FFCF2D !important;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background: #9564AA !important;
+}
+.dollars-slide{
+    display: none;
+}
+@media(max-width: 778px) {
+    .swiper-slide_container, .swiper-slide_content{
+        max-width: 100%;
+    }
+    .swiper-slide_content{
+        width: 80%;
+    }
+    .swiper_button{
+        display: none;
+    }
+    .swiper-slide_content{
+        align-items: end;
+        margin-bottom: 2rem;
+    }
+    .swiper-slide_content-additional{
+        top:2rem;
+        left:0;
+    }
+    .dollars-slide{
+        display: block;
+    }
+}

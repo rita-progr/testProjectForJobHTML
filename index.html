@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles/global.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="parallax-background">
+<!-- Левая кучка шариков -->
+<div class="parallax-ball ball-1"></div>
+<div class="parallax-ball ball-2"></div>
+<div class="parallax-ball ball-3"></div>
+<div class="parallax-ball ball-4"></div>
+<div class="parallax-ball ball-5"></div>
+    <div class="parallax-ball ball-16"></div>
+    <div class="parallax-ball ball-17"></div>
+    <div class="parallax-ball ball-18"></div>
+    <div class="parallax-ball ball-19"></div>
+    <div class="parallax-ball ball-20"></div>
+<!-- Правая кучка шариков -->
+<div class="parallax-ball ball-6"></div>
+<div class="parallax-ball ball-7"></div>
+<div class="parallax-ball ball-8"></div>
+<div class="parallax-ball ball-9"></div>
+<div class="parallax-ball ball-10"></div>
+<div class="parallax-ball ball-11"></div>
+<div class="parallax-ball ball-12"></div>
+<div class="parallax-ball ball-13"></div>
+<div class="parallax-ball ball-14"></div>
+<div class="parallax-ball ball-15"></div>
+</div>
+    <div class="app">
+        <div class="app__header">
+            <div class = "burger">
+                <div class="burger-one"></div>
+                <div class="burger-two"></div>
+                <div class="burger-three"></div>
+            </div>
+            <div class="app__header_logo">
+                Logo
+            </div>
+            <div class="app__header_menu">
+                <p>People nearby</p>
+                <p>Search</p>
+                <div class="app__header_button">
+                    <p>Premium</p>
+                    <img src="./assets/icons/brilliant.svg" alt="">
+                </div>
+            </div>
+            <div class="app__header_menu-brilliant">
+                <img src="./assets/icons/brilliant.svg" alt="">
+            </div>
+        </div>
+
+        <div class="app__content">
+            <div class="app__content-container">
+                <div class = "app__content-sidebar">
+                    <div class="app__content-sidebar_header">
+                        <div class = "app__content-sidebar_img">
+                            <img src="./assets/images/user.png" alt="">
+                        </div>
+                        <div>
+                            <p class="app__content-sidebar_text">Test2412</p>
+                            <button class = "app__content-sidebar_button">GET PREMIUM</button>
+                        </div>
+                    </div>
+                    <div class="app__content-sidebar_content"></div>
+                </div>
+                <div class="app__content-main">
+                    <h1 class="app__content-main_title">Закончились кредиты?</h1>
+                    <div class="app__content-main_banner-container">
+                        <div class="app__content-main_banner">
+                            <div class="app__content-main_banner_text">
+                                Скидка 40%
+                            </div>
+                            <div class="app__content-main_banner_test-2">
+                                Предложение действует в течение:
+                            </div>
+                            <div class="timer">00:00:00</div>
+                        </div>
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper"></div>
+                                <div class="swiper-pagination"></div>
+                        </div>
+
+                        <div class = "app__content-main_second-banner">
+                            <div class = "app__content-main_second-banner_content">
+                                <p class = "app__content-main_second-banner-price">1000</p>
+                                <div class = "app__content-main_second-banner-cr">CR</div>
+                            </div>
+
+                            <button class = "app__content-main_second-banner-button">
+                                Buy now
+                            </button>
+                        </div>
+                        <div class = "app__content-main_second-banner_second">
+                            Try now
+                        </div>
+                        <div>
+                            <label class = "app_label">
+                                <input type="checkbox">
+                                <p>  By clicking Checkbox you agree and accept our <span class="color-p">Privacy Policy</span> , and <span class="color-p">Terms of use</span></p>
+                            </label>
+                        </div>
+                        <div class = "app__content-main_info">
+                            <div class = "app__content-main_info-icon">
+                                <div class = "app__content-main_info-img">
+                                    <svg class="custom-svg" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10 1.5H15L19 6.5M10 1.5L13 6.5M10 1.5H5L1 6.5M10 1.5L7 6.5M19 6.5L10 16.5M19 6.5H13M10 16.5L13 6.5M10 16.5L1 6.5M10 16.5L7 6.5M13 6.5H7M1 6.5H7" stroke="#FFCF2D" stroke-width="0.3"/>
+                                    </svg>
+                                </div>
+                                <div class = "app__content-main_info-svg item-1">
+                                    <div class = "custom-icon">
+                                        <svg  width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18701 19.8042L10.2738 16H18.187C19.2916 16 20.187 15.1046 20.187 14V2C20.187 0.89543 19.2916 0 18.187 0H2.18701C1.08244 0 0.187012 0.89543 0.187012 2V14C0.187012 15.1046 1.08244 16 2.18701 16H4.18701V19.8042ZM9.70022 14L6.18701 16.1958V14H2.18701V2H18.187V14H9.70022Z"/>
+                                            <rect x="5.18701" y="5" width="10" height="2" />
+                                            <rect x="5.18701" y="9" width="10" height="2" />
+                                        </svg>
+                                    </div>
+                                    <div class="custom-svg_text">Отправлять сообщения</div>
+                                </div>
+
+                                <div class = "app__content-main_info-svg item-2">
+                                    <div class = "custom-icon">
+                                        <svg   width="23" height="21" viewBox="0 0 23 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.7402 0.804215C14.2926 0.804199 13.3594 0.975582 12.2897 1.49591C11.8936 1.68855 11.5221 1.92055 11.177 2.19121C10.8452 1.93572 10.4885 1.71438 10.1088 1.52777C9.01833 0.991792 8.03729 0.804199 6.64156 0.804199C2.90345 0.804199 0.187012 3.88206 0.187012 7.87946C0.187012 10.8983 1.88084 13.8144 5.03585 16.6343C6.69191 18.1144 8.80633 19.5791 10.3206 20.3584L11.187 20.8042L12.0534 20.3584C13.5677 19.5791 15.6821 18.1144 17.3382 16.6343C20.4932 13.8144 22.187 10.8983 22.187 7.87946C22.187 3.92437 19.445 0.819461 15.7402 0.804215ZM20.187 7.87946C20.187 10.2446 18.7732 12.6786 16.0007 15.1565C14.4892 16.5075 12.546 17.8576 11.187 18.5659C9.82805 17.8576 7.88483 16.5075 6.37329 15.1565C3.60083 12.6786 2.18701 10.2446 2.18701 7.87946C2.18701 4.92592 4.07065 2.79167 6.64156 2.79167C7.75129 2.79167 8.43514 2.92243 9.22215 3.30925C9.68702 3.53773 10.0979 3.83943 10.4535 4.21645L11.1893 4.99646L11.9185 4.21027C12.2821 3.81814 12.699 3.50958 13.1689 3.28101C13.9329 2.90942 14.574 2.79167 15.7361 2.79167C18.2752 2.80213 20.187 4.96691 20.187 7.87946Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="custom-svg_text">Пользоваться другими премиум
+                                        функциями</div>
+                                </div>
+                                <div class = "app__content-main_info-svg item-3">
+                                    <div class = "custom-icon">
+                                        <svg   width="23" height="17" viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.18703 8.8042C7.18703 11.0133 8.9779 12.8042 11.187 12.8042C13.3962 12.8042 15.187 11.0133 15.187 8.8042C15.187 6.59506 13.3962 4.8042 11.187 4.8042C8.9779 4.8042 7.18703 6.59506 7.18703 8.8042ZM13.187 8.8042C13.187 9.90877 12.2916 10.8042 11.187 10.8042C10.0825 10.8042 9.18703 9.90877 9.18703 8.8042C9.18703 7.69963 10.0825 6.8042 11.187 6.8042C12.2916 6.8042 13.187 7.69963 13.187 8.8042Z" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.187 0.804199C13.9146 0.804199 16.5227 2.23482 18.9533 4.58535C19.7825 5.38725 20.5327 6.24336 21.1931 7.09982C21.5916 7.61664 21.8746 8.02319 22.0295 8.2654L22.3741 8.8042L22.0295 9.343C21.8746 9.5852 21.5916 9.99176 21.1931 10.5086C20.5327 11.365 19.7825 12.2212 18.9533 13.023C16.5227 15.3736 13.9146 16.8042 11.187 16.8042C8.45949 16.8042 5.85136 15.3736 3.42074 13.023C2.59153 12.2212 1.84134 11.365 1.18094 10.5086C0.782441 9.99176 0.499509 9.5852 0.3446 9.343L0 8.8042L0.3446 8.2654C0.499509 8.02319 0.782441 7.61664 1.18094 7.09982C1.84134 6.24336 2.59153 5.38725 3.42074 4.58535C5.85136 2.23482 8.45949 0.804199 11.187 0.804199ZM19.6093 8.32108C19.0046 7.53692 18.3172 6.7524 17.563 6.02305C15.4695 3.99857 13.2921 2.8042 11.187 2.8042C9.08196 2.8042 6.90453 3.99857 4.81108 6.02305C4.05687 6.7524 3.36942 7.53692 2.76478 8.32108C2.63419 8.49043 2.51352 8.65202 2.4032 8.8042C2.51352 8.95638 2.63419 9.11796 2.76478 9.28732C3.36942 10.0715 4.05687 10.856 4.81108 11.5853C6.90453 13.6098 9.08196 14.8042 11.187 14.8042C13.2921 14.8042 15.4695 13.6098 17.563 11.5853C18.3172 10.856 19.0046 10.0715 19.6093 9.28732C19.7399 9.11796 19.8605 8.95638 19.9709 8.8042C19.8605 8.65202 19.7399 8.49043 19.6093 8.32108Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="custom-svg_text">Просматривать скрытые фото</div>
+                                </div>
+                                <div class = "app__content-main_info-svg item-4">
+                                    <div class = "custom-icon">
+                                        <svg   width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11.187 15.8042C8.97787 15.8042 7.18701 14.0133 7.18701 11.8042C7.18701 9.59506 8.97787 7.8042 11.187 7.8042C13.3962 7.8042 15.187 9.59506 15.187 11.8042C15.187 14.0133 13.3962 15.8042 11.187 15.8042ZM13.187 11.8042C13.187 12.9088 12.2916 13.8042 11.187 13.8042C10.0824 13.8042 9.18701 12.9088 9.18701 11.8042C9.18701 10.6996 10.0824 9.8042 11.187 9.8042C12.2916 9.8042 13.187 10.6996 13.187 11.8042Z" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.8432 20.7012L20.0604 18.484L19.2795 15.6472L19.6197 14.8347L22.187 13.386V10.2506L19.627 8.79593L19.2925 7.98487L20.0832 5.14655L17.8644 2.93103L15.0273 3.71168L14.2166 3.37177L12.7678 0.804199H9.63245L8.17773 3.36424L7.36686 3.69866L4.52899 2.90701L2.31371 5.12229L3.09449 7.95987L2.75459 8.77054L0.187012 10.2193V13.3538L2.74475 14.8118L3.07953 15.6235L2.28898 18.4614L4.5051 20.6775L7.34269 19.8967L8.15345 20.2367L9.60228 22.8032H12.7369L14.1937 20.2454L15.0053 19.9107L17.8432 20.7012ZM18.0397 13.4298L17.1679 15.512L17.8232 17.8928L17.2548 18.4612L14.879 17.7993L12.796 18.6584L11.5743 20.8032H10.7699L9.55842 18.6571L7.47856 17.785L5.09648 18.4404L4.52904 17.873L5.19087 15.4972L4.33183 13.4143L2.18701 12.1918V11.3872L4.33411 10.1757L5.20621 8.09575L4.55076 5.71366L5.11702 5.14741L7.49277 5.81015L9.57656 4.95075L10.7963 2.8042H11.5999L12.8115 4.9513L14.8914 5.82339L17.274 5.16782L17.8428 5.73586L17.1811 8.11116L18.0405 10.1948L20.187 11.4145V12.2181L18.0397 13.4298Z" />
+                                        </svg>
+                                    </div>
+                                    <div class="custom-svg_text">Просматривать скрытые фото</div>
+                                </div>
+                                <div class = "app__content-main_info-svg item-5">
+                                    <div class = "custom-icon">
+                                        <svg   width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.18701 19.8042L10.2738 16H18.187C19.2916 16 20.187 15.1046 20.187 14V2C20.187 0.89543 19.2916 0 18.187 0H2.18701C1.08244 0 0.187012 0.89543 0.187012 2V14C0.187012 15.1046 1.08244 16 2.18701 16H4.18701V19.8042ZM9.70022 14L6.18701 16.1958V14H2.18701V2H18.187V14H9.70022Z" />
+                                            <rect x="5.18701" y="5" width="10" height="2" />
+                                            <rect x="5.18701" y="9" width="10" height="2" />
+                                        </svg>
+                                    </div>
+                                    <div class="custom-svg_text">Оплачивать подарки</div>
+                                </div>
+                                <div class = "app__content-main_info-svg item-6">
+                                    <div class = "custom-icon">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.49704 7C5.16883 6.46338 5 5.80285 5 5C5 3.41709 6.19035 2 8 2C9.81199 2 11.2733 3.21363 12 5.11383C12.7267 3.21363 14.188 2 16 2C17.8096 2 19 3.41709 19 5C19 5.80285 18.8312 6.46338 18.503 7H20C21.1046 7 22 7.89543 22 9V11C22 12.1046 21.1046 13 20 13V20C20 21.1046 19.1046 22 18 22H6C4.89543 22 4 21.1046 4 20V13C2.89543 13 2 12.1046 2 11V9C2 7.89543 2.89543 7 4 7H5.49704ZM11 9H4V11H11V9ZM20 11H13V9H20V11ZM11 20V13H6V20H11ZM18 20H13V13H18V20ZM8 4C7.37965 4 7 4.45196 7 5C7 6.25323 8.017 6.84912 10.4294 6.97449C10.1613 5.1116 9.16218 4 8 4ZM13.5 6.97449C13.7681 5.1116 14.7672 4 15.9294 4C16.5498 4 16.9294 4.45196 16.9294 5C16.9294 6.25323 15.9124 6.84912 13.5 6.97449Z" />
+                                        </svg>
+
+                                    </div>
+                                    <div class="custom-svg_text">Оплачивать подарки</div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src = "./js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src = "./js/slider.js"></script>
+<script src = "./js/timer.js"></script>
+<script src = "./js/paralax.js"></script>
+</html>
